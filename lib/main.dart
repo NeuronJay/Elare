@@ -33,21 +33,17 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   Widget _buildAppBar() {
     return new AppBar(
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.black,
       elevation: 0.0,
       leading: new IconButton(
         icon: new Icon(
-          Icons.person,
-          color: Colors.grey,
+          Icons.account_circle,
+          color: Colors.orange,
           size: 40.0,
         ),
         onPressed: () {
           // TODO:
         },
-      ),
-      title: new FlutterLogo(
-        size: 30.0,
-        colors: Colors.red,
       ),
       actions: <Widget>[
         new IconButton(
