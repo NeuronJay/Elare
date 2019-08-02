@@ -69,13 +69,6 @@ class _MyHomePageState extends State<MyHomePage> {
         child: new Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            new RoundIconButton.small(
-              icon: Icons.refresh,
-              iconColor: Colors.orange,
-              onPressed: () {
-                // TODO:
-              },
-            ),
             new RoundIconButton.large(
               icon: Icons.clear,
               iconColor: Colors.red,
@@ -83,25 +76,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 matchEngine.currentMatch.nope();
               },
             ),
-            new RoundIconButton.small(
-              icon: Icons.star,
-              iconColor: Colors.blue,
-              onPressed: () {
-                matchEngine.currentMatch.superLike();
-              },
-            ),
             new RoundIconButton.large(
               icon: Icons.favorite,
               iconColor: Colors.green,
               onPressed: () {
                 matchEngine.currentMatch.like();
-              },
-            ),
-            new RoundIconButton.small(
-              icon: Icons.lock,
-              iconColor: Colors.purple,
-              onPressed: () {
-                // TODO:
               },
             ),
           ],
@@ -138,7 +117,7 @@ class RoundIconButton extends StatelessWidget {
     this.icon,
     this.iconColor,
     this.onPressed,
-  }) : size = 50.0;
+  }) : size = 40.0;
 
   RoundIconButton({
     this.icon,
@@ -154,11 +133,11 @@ class RoundIconButton extends StatelessWidget {
       height: size,
       decoration: new BoxDecoration(
         shape: BoxShape.circle,
-        color: Colors.white,
+        color: Colors.white70,
         boxShadow: [
           new BoxShadow(
             color: const Color(0x11000000),
-            blurRadius: 10.0,
+            blurRadius: 50.0,
           ),
         ],
       ),
