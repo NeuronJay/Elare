@@ -1,6 +1,8 @@
 # Elare
 Conventional Left - Right ( LR ) Game just got trendy !! 
 
-Will be out in play store and app store in August 2019 !! 
+Will be out in play store and app store soon !! 
 
-No Idea as to what is being done but something cool is happening. 
+Check your mind and hand coordination with this simple amazing game ! 
+
+Some Idea as to what is being done but something cool is happening. 
